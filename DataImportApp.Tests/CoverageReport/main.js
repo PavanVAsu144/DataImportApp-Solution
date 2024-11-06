@@ -226,8 +226,8 @@ var assemblies = [
       { "name": "DataImportApp.Data.ImportContext", "rp": "DataImportApp_ImportContext.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 17, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "DataImportApp.Models.ImportedFile", "rp": "DataImportApp_ImportedFile.html", "cl": 4, "ucl": 1, "cal": 5, "tl": 13, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "DataImportApp.Models.ImportLog", "rp": "DataImportApp_ImportLog.html", "cl": 6, "ucl": 0, "cal": 6, "tl": 12, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "DataImportApp.Models.ImportResult", "rp": "DataImportApp_ImportResult.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 8, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "DataImportApp.Services.ImportService", "rp": "DataImportApp_ImportService.html", "cl": 82, "ucl": 67, "cal": 149, "tl": 223, "cb": 5, "tb": 18, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "DataImportApp.Models.ImportResult", "rp": "DataImportApp_ImportResult.html", "cl": 2, "ucl": 1, "cal": 3, "tl": 9, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "DataImportApp.Services.ImportService", "rp": "DataImportApp_ImportService.html", "cl": 122, "ucl": 27, "cal": 149, "tl": 223, "cb": 12, "tb": 18, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "DataImportApp.WeatherForecast", "rp": "DataImportApp_WeatherForecast.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 13, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "FileImportExportAPI.Models.User", "rp": "DataImportApp_User.html", "cl": 4, "ucl": 1, "cal": 5, "tl": 19, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "FileImportExportAPI.Models.User_csv", "rp": "DataImportApp_User_csv.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 19, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
@@ -240,17 +240,9 @@ var metrics = [{ "name": "Crap Score", "abbreviation": "crp", "explanationUrl": 
 var historicCoverageExecutionTimes = [];
 
 var riskHotspotMetrics = [
-      { "name": "Crap Score", "explanationUrl": "https://googletesting.blogspot.de/2011/02/this-code-is-crap.html" },
-      { "name": "Cyclomatic complexity", "explanationUrl": "https://en.wikipedia.org/wiki/Cyclomatic_complexity" },
 ];
 
 var riskHotspots = [
-  {
-    "assembly": "DataImportApp", "class": "DataImportApp.Services.ImportService", "reportPath": "DataImportApp_ImportService.html", "methodName": "ImportExcelFile()", "methodShortName": "ImportExcelFile()", "fileIndex": 0, "line": 121,
-    "metrics": [
-      { "value": 72, "exceeded": true },
-      { "value": 8, "exceeded": false },
-    ]},
 ];
 
 var branchCoverageAvailable = true;
